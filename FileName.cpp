@@ -1,23 +1,34 @@
 #include <iostream>
-using namespace std;
 
-void swap(void* x, void* y, size_t size) {
-    char* temp = new char[size];
-    memcpy(temp, x, size);
-    memcpy(x, y, size);
-    memcpy(y, temp, size);
-    delete[] temp;
+enum Type {
+    INT,
+    FLOAT,
+    STRING,
+};
+
+void Print(void* pValue, Type eType) {
+    using namespace std;
+    switch (eType) {
+    case INT:
+        cout << *static_cast<int*>(pValue) << endl;
+        break;
+    case FLOAT:
+        cout << *static_cast<float*>(pValue) << endl;
+        break;
+    case STRING:
+        cout << static_cast<char*>(pValue) << endl;
+        break;
+    }
 }
 
 int main() {
-    int x = 1, y = 2;
-    float f1 = 1.234f, f2 = 9.876f;
+    int nValue = 5;
+    float fValue = 7.5f;  // Ensure the float value is suffixed with 'f'
+    char szValue[] = "Mollie";  // Use a char array instead of a char pointer
 
-    swap(&x, &y, sizeof(int));
-    swap(&f1, &f2, sizeof(float));
-
-    cout << "Swapped x: " << x << ", y: " << y << endl;
-    cout << "Swapped f1: " << f1 << ", f2: " << f2 << endl;
+    Print(&nValue, INT);
+    Print(&fValue, FLOAT);
+    Print(szValue, STRING);
 
     return 0;
 }
