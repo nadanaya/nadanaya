@@ -1,30 +1,62 @@
-# 김나영 | Backend & Data Analysis
+# 김나영 | Data Analyst & Backend Developer
 
-Python, PostgreSQL, REST API를 기반으로 서비스 데이터 흐름을 설계하고 구현하는 개발자 지망생입니다.  
-Flutter, Supabase, Firebase 프로젝트 경험을 통해 사용자 기능과 데이터 구조가 만나는 지점을 이해하고 있습니다.
+서비스 데이터를 문제 정의, 지표 설계, 분석 결과, 백엔드 구현 흐름까지 연결하는 신입 데이터 분석가/백엔드 개발자 지망생입니다.  
+은행, IT, 핀테크 분야에서 개인 금융 데이터, 공공 API 데이터, 서비스 운영 데이터를 분석 가능한 구조로 만들고 개선 액션까지 제안하는 역량을 키우고 있습니다.
 
 ## Focus
 
-- Backend Development
-- Data Modeling / PostgreSQL
-- REST API / Node.js
-- Flutter + Supabase/Firebase
-- AI Agent / NLP
-- Data Analysis with Python
+- Data Analysis with Python / SQL
+- KPI Design & Business Insight
+- ML Classification / Model Evaluation
+- Public API Data Pipeline
+- Backend API / Spring Boot / JPA
+- PostgreSQL, SQLite, Supabase, Firebase
 
 ## Tech Stack
 
 | Area | Tools |
 | --- | --- |
-| Backend & Data | Python, PostgreSQL, Node.js, Express, REST API |
-| Cloud DB / BaaS | Supabase, Firebase |
+| Analysis | Python, SQL, Pandas, NumPy, Excel, Tableau |
+| ML / Data App | scikit-learn, Streamlit, SQLite, pytest |
+| Backend & API | Java 17, Spring Boot, Spring Data JPA, REST API, Node.js |
+| Cloud DB / BaaS | PostgreSQL, Supabase, Firebase, H2 |
 | App / Client | Flutter, Dart, Java, Android Studio, HTML/CSS |
-| AI / Data | OpenAI API, HuggingFace, NLP, Pandas, NumPy |
 | Collaboration | Git, GitHub, Figma, Notion |
 
 ## Featured Projects
 
-### DentaLink
+### 1. JipFit AI
+
+청년의 소득, 자산, 보증금, 월세, 관리비, 부채 조건을 바탕으로 주거비 부담 위험을 분류하고 주거 정책을 추천하는 데이터 분석/ML 프로젝트입니다.
+
+- 6,000건의 합성 주거 시나리오 생성 및 SQLite 데이터 구성
+- 총 주거비, 소득 대비 주거비 비율, 부채 버퍼 등 핵심 지표 설계
+- Logistic Regression, Random Forest 등 모델 비교
+- 선정 모델 성능: Accuracy 0.9308, Macro F1 0.9014
+- Streamlit 기반 사용자 입력/결과 확인 화면 구성
+- Repository: https://github.com/nadanaya/jipfit-ai
+
+### 2. Weather Forecast Error
+
+기상청 단기예보와 서울 ASOS 관측 데이터를 결합해 시간대별 강수 예보 오차 여부를 정의한 공공 API 데이터 파이프라인 프로젝트입니다.
+
+- 기상청 단기예보 API와 ASOS 시간 관측 자료 수집
+- 예보 강수 여부와 실제 강수 여부를 같은 시간 기준으로 정렬
+- `forecast_rain != actual_rain` 기준으로 `forecast_error` 분류 타깃 생성
+- 일 단위 요약값 대신 시간 관측값을 사용해 라벨 신뢰도 개선
+- Repository: https://github.com/nadanaya/weather-forecast-error
+
+### 3. Pigge Server
+
+개인 가계부 앱을 위한 Spring Boot 백엔드 API입니다. 수입/지출 거래 저장, 사용자별 조회, 월별 집계, 잔액 조회, AI 소비 요약 흐름을 구현했습니다.
+
+- Java 17, Spring Boot, Spring Data JPA 기반 거래 API 구현
+- 사용자별 전체 거래 조회, 월별 거래 조회, 총 잔액 조회 API 구성
+- 월별 수입/지출 집계 데이터를 AI 소비 요약으로 연결
+- 금융/핀테크 백엔드 관점의 거래 정합성, 조회 성능, 배치 집계 개선 과제 도출
+- Repository: https://github.com/nadanaya/pigge_server
+
+### 4. DentalLink
 
 치과 진료 전후 경험을 환자 앱과 관리자 웹으로 연결하는 통합 관리 서비스입니다.
 
@@ -34,33 +66,20 @@ Flutter, Supabase, Firebase 프로젝트 경험을 통해 사용자 기능과 �
 - Supabase Realtime 기반 대기 상태 동기화
 - Flutter, Provider, MVVM 구조 적용
 
-### 4-party
+### 5. AI Agent System
 
-명지대학교 학생을 위한 택시 동승 매칭 앱입니다.
+프로젝트 관리 데이터를 분석해 회의 요약, Action Item, 일정 리마인드, 리스크 분석, 최종 Markdown 보고서를 자동 생성하는 AI Agent 프로젝트입니다.
 
-- Flutter + Node.js/Express + Firebase 기반 서비스 구조
-- 학교 이메일 인증 기반 회원 흐름
-- 실시간 파티 매칭 및 채팅
-- 출발 5분 전 인원 미달 시 긴급 모집 배너 노출
-- 예상 택시 요금 산출 기능
+- Python 기반 Agent 분석 로직 구현
+- LangGraph 기반 분석 흐름 구성
+- Supabase(PostgreSQL) 저장 구조와 SQL 스키마 구성
+- Discord Bot 명령과 Agent 실행 흐름 연동
+- Repository: https://github.com/nadanaya/ai-agent
 
-### Kakao Global Stock Care
+## Portfolio
 
-AX 해커톤 예선용 카카오페이증권 전용 Codex 플러그인입니다.
-
-- 해외주식 자연어 요청 분석
-- 종목 확인, 금액/환율/수수료 주의 문구 구조화
-- 위험 표현 감지 및 조건 주문 초안 생성
-- Flutter 데모 UI, MCP 서버, Figma 보조 플러그인 구성
-
-### Channel Talk AI Ops Assistant
-
-CX팀과 개발팀이 AI 상담 자동화 운영 흐름을 함께 점검할 수 있는 Codex 플러그인입니다.
-
-- AI 상담 자동화 롤아웃 분석
-- 웹훅/CRM 연동 흐름 점검
-- 중복 응답 방지 및 라우팅 충돌 확인
-- MCP 서버와 UI 프로토타입 구성
+- Portfolio Page: https://nadanaya.github.io/portfolio/
+- Portfolio Repository: https://github.com/nadanaya/portfolio
 
 ## Learning & Activities
 
@@ -73,6 +92,5 @@ CX팀과 개발팀이 AI 상담 자동화 운영 흐름을 함께 점검할 수 
 
 ## What I Care About
 
-좋은 서비스는 화면만으로 완성되지 않고, 데이터가 정확히 흐르고 상태가 안정적으로 관리될 때 완성된다고 생각합니다.  
-앞으로 백엔드 개발과 데이터 분석 역량을 함께 키워, 사용자 경험을 뒷받침하는 견고한 시스템을 만들고 싶습니다.
-
+데이터 분석은 차트를 만드는 일에서 끝나지 않고, 사용자의 문제를 지표로 정의하고 서비스 개선 액션으로 연결하는 일이라고 생각합니다.  
+앞으로 금융/IT/핀테크 도메인에서 데이터를 신뢰할 수 있게 다루고, 분석 결과가 실제 제품과 시스템 개선으로 이어지도록 성장하고 싶습니다.
