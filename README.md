@@ -18,7 +18,7 @@
 | --- | --- |
 | Analysis | Python, SQL, Pandas, NumPy, Excel, Tableau |
 | ML / Data App | scikit-learn, Streamlit, SQLite, pytest |
-| Backend & API | Java 17, Spring Boot, Spring Data JPA, REST API, Node.js |
+| Backend & API | Java 17, Spring Boot, Spring Data JPA, Python, FastAPI, REST API, Node.js |
 | Cloud DB / BaaS | PostgreSQL, Supabase, Firebase, H2 |
 | App / Client | Flutter, Dart, Java, Android Studio, HTML/CSS |
 | Collaboration | Git, GitHub, Figma, Notion |
@@ -56,7 +56,17 @@
 - 금융/핀테크 백엔드 관점의 거래 정합성, 조회 성능, 배치 집계 개선 과제 도출
 - Repository: https://github.com/nadanaya/pigge_server
 
-### 4. DentalLink
+### 4. FESTAI
+
+AI·ESG 기반 지역축제 운영 플랫폼 백엔드로, 방문객 QR 모바일 웹·운영자 콘솔·참여업체 콘솔이 함께 쓰는 FastAPI 서비스입니다.
+
+- FastAPI, PostgreSQL 기반 공개 조회 API와 방문객 AI 안내 기능 구현
+- 게시 상태 필터링으로 승인·게시된 콘텐츠만 공개 API에 노출
+- Alan AI 연동 시 질문별 컨텍스트 선택과 URL 길이 상한 처리로 안정성 확보
+- 익명 방문 세션은 원문 토큰 대신 해시로 저장, 응답에 Alan AI 사용 여부 표시
+- Repository: https://github.com/FEST-ON/Backend
+
+### 5. DentalLink
 
 치과 진료 전후 경험을 환자 앱과 관리자 웹으로 연결하는 통합 관리 서비스입니다.
 
@@ -66,7 +76,7 @@
 - Supabase Realtime 기반 대기 상태 동기화
 - Flutter, Provider, MVVM 구조 적용
 
-### 5. AI Agent System
+### 6. AI Agent System
 
 프로젝트 관리 데이터를 분석해 회의 요약, Action Item, 일정 리마인드, 리스크 분석, 최종 Markdown 보고서를 자동 생성하는 AI Agent 프로젝트입니다.
 
