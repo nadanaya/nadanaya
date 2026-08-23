@@ -32,7 +32,7 @@
 - 6,000건의 합성 주거 시나리오 생성 및 SQLite 데이터 구성
 - 총 주거비, 소득 대비 주거비 비율, 부채 버퍼 등 핵심 지표 설계
 - Logistic Regression, Random Forest 등 모델 비교
-- 선정 모델 성능: Accuracy 0.9308, Macro F1 0.9014
+- 선정 모델 성능: Accuracy 0.9375, Macro F1 0.9185
 - Streamlit 기반 사용자 입력/결과 확인 화면 구성
 - Repository: https://github.com/nadanaya/jipfit-ai
 
@@ -60,8 +60,7 @@
 
 AI·ESG 기반 지역축제 운영 플랫폼 백엔드로, 방문객 QR 모바일 웹·운영자 콘솔·참여업체 콘솔이 함께 쓰는 FastAPI 서비스입니다.
 
-- FastAPI, PostgreSQL 기반 공개 조회 API와 방문객 AI 안내 기능 구현
-- 게시 상태 필터링으로 승인·게시된 콘텐츠만 공개 API에 노출
+- (직접 기여·검증) 공개 API 게시 상태 필터링 및 승인된 festival context 기반 AI 안내 흐름 구현·검증
 - Alan AI 연동 시 질문별 컨텍스트 선택과 URL 길이 상한 처리로 안정성 확보
 - 익명 방문 세션은 원문 토큰 대신 해시로 저장, 응답에 Alan AI 사용 여부 표시
 - Repository: https://github.com/FEST-ON/Backend
