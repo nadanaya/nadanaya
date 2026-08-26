@@ -74,6 +74,7 @@ AI·ESG 기반 지역축제 운영 플랫폼 백엔드로, 방문객 QR 모바�
 - Screen - Provider - Service - Model 계층 분리
 - Supabase Realtime 기반 대기 상태 동기화
 - Flutter, Provider, MVVM 구조 적용
+- Repository: https://github.com/2026-capstone-design
 
 ### 6. AI Agent System
 
