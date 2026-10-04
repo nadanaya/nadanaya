@@ -1,68 +1,82 @@
-# 김나영 | Backend Developer
+<div align="center">
 
-데이터와 AI 기능을 실제 서비스로 연결하는 신입 백엔드 개발자입니다.  
-Spring Boot·FastAPI 기반 API, PostgreSQL·SQLite 데이터 모델, 자동화된 테스트를 중심으로 운영 가능한 서비스를 만듭니다.
+# 김나영 · Backend Developer
 
-## Focus
+데이터와 AI 기능을 실제 서비스로 연결합니다.
 
-- Backend API / Spring Boot / JPA / FastAPI
-- PostgreSQL, SQLite, Supabase, Firebase
-- AI Agent / RAG / Tool Use
-- Data Analysis with Python / SQL
-- 테스트, 문서화, 배포 자동화
+<a href="https://github.com/petbalance/backend"><img src="https://img.shields.io/badge/PetBalance-반려동물%20영양%20분석-2F855A?style=flat-square" alt="PetBalance"></a>
+<a href="https://github.com/nadanaya/ai-agent"><img src="https://img.shields.io/badge/AI%20Agent-LangGraph%20%7C%20RAG-6B46C1?style=flat-square" alt="AI Agent"></a>
+<a href="https://nadanaya.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-방문하기-1F2937?style=flat-square" alt="Portfolio"></a>
 
-## Featured Projects
+</div>
 
-### PetBalance — 반려동물 영양 분석·보호소 운영 플랫폼
+## About
+
+Spring Boot와 FastAPI로 API와 데이터 모델을 설계하고, 테스트·문서화·배포까지 이어지는 흐름을 만듭니다. 사용자가 실제로 쓰는 서비스의 문제를 데이터와 자동화로 단순하게 풀어내는 일에 관심이 있습니다.
+
+## What I work with
+
+| 영역 | 기술 |
+| --- | --- |
+| Backend | Java · Spring Boot · JPA · Python · FastAPI |
+| Data | PostgreSQL · SQLite · Supabase · SQL |
+| AI | LangGraph · RAG · Tool Use · 데이터 분석 |
+| Delivery | REST API · 테스트 자동화 · 문서화 · 배포 |
+
+## Featured work
+
+### [PetBalance](https://github.com/petbalance/backend) · 반려동물 영양 분석·보호소 운영
 
 개인 반려동물의 급여 조합 분석부터 보호소의 로스터·재고·예산 관리까지 연결한 서비스입니다.
 
-- FastAPI 기반 인증·제품·식단·영양 분석 API와 Spring Boot 호환 구현
-- React/Vite 웹, Electron 데스크톱, Capacitor Android 클라이언트 구성
-- 보호소 운영용 Next.js Route Handlers와 Neon PostgreSQL 저장 구조
-- PBKDF2 인증, 사용자별 데이터 분리, revision 기반 동시 수정 충돌 감지
-- 백엔드 단위·API 테스트 63개와 프런트엔드 프로덕션 빌드로 핵심 흐름 검증
-- 영양 기준과 제품 데이터는 기능 검증용 데모이며 실제 수의학적 판단을 대체하지 않도록 안전 범위 명시
+- FastAPI 인증·제품·식단·영양 분석 API와 Spring Boot 호환 구현
+- React/Vite 웹 · Electron 데스크톱 · Capacitor Android 클라이언트
+- Next.js 보호소 운영 웹 · Neon PostgreSQL 저장 구조
+- 사용자별 데이터 분리, 분석 이력·실제 급여 기록·추천 적용 흐름
 
-Repositories: [Backend](https://github.com/petbalance/backend) · [Frontend](https://github.com/petbalance/Frontend) · [Organization](https://github.com/petbalance)
+[Backend](https://github.com/petbalance/backend) · [Frontend](https://github.com/petbalance/Frontend) · [Organization](https://github.com/petbalance)
 
-### Pigge Server
+### [AI Agent System](https://github.com/nadanaya/ai-agent) · 프로젝트 관리 자동화
 
-개인 가계부 앱용 Spring Boot 백엔드입니다. 거래 저장, 사용자별·월별 조회, 잔액 계산과 AI 소비 요약 흐름을 구현했습니다.
+프로젝트 데이터를 분석해 회의 요약, Action Item, 리스크와 Markdown 보고서를 만드는 자동화 시스템입니다.
 
-- Java 17, Spring Boot, Spring Data JPA
-- 거래 저장·잔액 계산·월별 필터링을 서비스 테스트로 검증
+- Python · LangGraph · Supabase PostgreSQL · Discord Bot
+- FakeRepository/FakeLLM 기반 워크플로우 테스트
 
-Repository: [nadanaya/pigge_server](https://github.com/nadanaya/pigge_server)
+### [JipFit AI](https://github.com/nadanaya/jipfit-ai) · 주거비 부담 분석
 
-### AI Agent System
+소득·자산·주거비·부채 조건으로 주거비 부담 위험을 분류하고 정책을 추천하는 데이터 분석 프로젝트입니다.
 
-프로젝트 관리 데이터를 분석해 회의 요약, Action Item, 리스크와 Markdown 보고서를 생성하는 자동화 프로젝트입니다.
+- 6,000건 합성 시나리오 · SQLite 데이터 구성
+- Accuracy 0.9375 · Macro F1 0.9185
 
-- Python, LangGraph, Supabase PostgreSQL, Discord Bot
-- FakeRepository/FakeLLM 기반 테스트 36개로 주요 워크플로우 검증
+### [Pigge Server](https://github.com/nadanaya/pigge_server) · 가계부 API
 
-Repository: [nadanaya/ai-agent](https://github.com/nadanaya/ai-agent)
+거래 저장, 사용자별·월별 조회, 잔액 계산과 AI 소비 요약을 제공하는 Spring Boot 백엔드입니다.
 
-### JipFit AI
+## Experience & learning
 
-청년의 소득·자산·주거비·부채 조건으로 주거비 부담 위험을 분류하고 정책을 추천하는 데이터 분석·ML 프로젝트입니다.
+- FESTAI · FastAPI·PostgreSQL 축제 운영 백엔드
+- DentalLink · Flutter·Supabase 환자·예약·대기 모델
+- ADsP · 정보처리기사 필기 합격 · BDA AI Agent 수업
 
-- 6,000건의 합성 시나리오와 SQLite 데이터 구성
-- Accuracy 0.9375, Macro F1 0.9185
+## GitHub activity
 
-Repository: [nadanaya/jipfit-ai](https://github.com/nadanaya/jipfit-ai)
+<div align="center">
 
-## Team Experience
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nadanaya&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nadanaya&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
 
-- **FESTAI** — FastAPI·PostgreSQL 축제 운영 백엔드, 공개 API 필터링과 AI 안내 fallback 구현
-- **DentalLink** — Flutter·Supabase 기반 환자·예약·대기 모델과 QR/PIN 인증, Realtime 동기화
+</div>
 
-## Portfolio
+<div align="center">
 
-- [Portfolio Page](https://nadanaya.github.io/portfolio/)
-- [Portfolio Repository](https://github.com/nadanaya/portfolio)
+[![GitHub Streak](https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent)](https://git.io/streak-stats)
 
-## Learning & Activities
+</div>
 
-ADsP · 정보처리기사 필기 합격 · BDA AI Agent 수업 · HP 멘토링 · ICPC 참가 · 특허전략 유니버시아드 참가
+<div align="center">
+
+<sub>제품·영양 기준 데이터는 기능 검증용 데모이며 실제 수의학적 판단을 대체하지 않습니다.</sub>
+
+</div>
