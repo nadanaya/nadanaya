@@ -84,8 +84,35 @@
 
 ## Team projects
 
-- **FESTAI** · FastAPI·PostgreSQL 기반 축제 운영 백엔드
-- **DentalLink** · Flutter·Supabase 기반 환자·예약·대기 모델
+### [WAVE ON · SilentOrchestra 2.0](https://github.com/Wanted-WAVE-ON)
+
+**2026 Wanted AI Championship**
+
+몸짓 뒤의 행동을 활동별로 학습하고, 사용자가 승인한 연결만 실행하는 로컬 우선 Agent입니다.
+
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+
+[Organization](https://github.com/Wanted-WAVE-ON) · [Repository](https://github.com/Wanted-WAVE-ON/WAVE-ON)
+
+---
+
+### FESTAI
+
+**지역축제 운영 백엔드**
+
+공개 API 데이터 필터링과 AI 안내 fallback을 포함한 축제 운영 API를 구현했습니다.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+---
+
+### DentalLink
+
+**환자·예약·대기 관리 서비스**
+
+QR/PIN 인증과 Realtime 동기화를 포함한 환자·예약·대기 모델을 구성했습니다.
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 <br />
 
