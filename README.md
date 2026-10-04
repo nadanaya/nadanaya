@@ -41,7 +41,7 @@ Spring Boot와 FastAPI로 테스트 가능한 서비스를 설계합니다.
 
 급여 조합 분석, 실제 급여 기록, 추천·알림과 보호소 운영을 연결한 서비스입니다.
 
-FastAPI · Spring Boot · React · Next.js · SQLite · PostgreSQL
+FastAPI · Spring Boot · React · Next.js · PostgreSQL
 
 [Backend](https://github.com/petbalance/backend) · [Frontend](https://github.com/petbalance/Frontend) · [Organization](https://github.com/petbalance)
 
@@ -83,11 +83,43 @@ Java 17 · Spring Boot · Spring Data JPA
 </tr>
 </table>
 
-## Experience & learning
+## Learning · mentoring · challenges
 
-- FESTAI · FastAPI·PostgreSQL 축제 운영 백엔드
-- DentalLink · Flutter·Supabase 환자·예약·대기 모델
-- ADsP · 정보처리기사 필기 합격 · BDA AI Agent 수업
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Learning
+
+- ADsP
+- 정보처리기사 필기 합격
+- BDA AI Agent 수업
+
+</td>
+<td width="33%" valign="top">
+
+### Mentoring
+
+- HP 멘토링
+
+</td>
+<td width="33%" valign="top">
+
+### Challenges
+
+- ICPC 참가
+- 특허전략 유니버시아드 참가
+
+</td>
+</tr>
+</table>
+
+## Collaboration
+
+| Project | Contribution |
+| --- | --- |
+| FESTAI | FastAPI·PostgreSQL 기반 축제 운영 백엔드 |
+| DentalLink | Flutter·Supabase 기반 환자·예약·대기 모델 |
 
 ## GitHub activity
 
