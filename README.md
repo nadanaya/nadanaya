@@ -84,7 +84,7 @@
 
 ## Team projects
 
-### [WAVE ON · SilentOrchestra 2.0](https://github.com/Wanted-WAVE-ON)
+### [WAVE ON · SilentOrchestra 2.0](https://github.com/Wanted-WAVE-ON/WAVE-ON)
 
 **2026 Wanted AI Championship**
 
@@ -92,11 +92,10 @@
 
 ![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-[Organization](https://github.com/Wanted-WAVE-ON) · [Repository](https://github.com/Wanted-WAVE-ON/WAVE-ON)
 
 ---
 
-### FESTAI
+### [FESTAI](https://github.com/EST-34)
 
 **지역축제 운영 백엔드**
 
@@ -106,7 +105,7 @@
 
 ---
 
-### DentalLink
+### [DentalLink](https://github.com/2026-capstone-design)
 
 **환자·예약·대기 관리 서비스**
 
