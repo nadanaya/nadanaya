@@ -18,10 +18,10 @@ Spring Boot와 FastAPI로 API와 데이터 모델을 설계하고, 테스트·�
 
 | 영역 | 기술 |
 | --- | --- |
-| Backend | Java · Spring Boot · JPA · Python · FastAPI |
-| Data | PostgreSQL · SQLite · Supabase · SQL |
-| AI | LangGraph · RAG · Tool Use · 데이터 분석 |
-| Delivery | REST API · 테스트 자동화 · 문서화 · 배포 |
+| Backend | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
+| Data | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| AI | ![LangGraph](https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-6B46C1?style=flat-square) ![Tools](https://img.shields.io/badge/Tool%20Use-F59E0B?style=flat-square) ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-8B5CF6?style=flat-square) |
+| Delivery | ![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat-square) ![Testing](https://img.shields.io/badge/Testing-25A162?style=flat-square&logo=pytest&logoColor=white) ![Docs](https://img.shields.io/badge/Docs-4285F4?style=flat-square&logo=readthedocs&logoColor=white) ![Deployment](https://img.shields.io/badge/Deployment-111827?style=flat-square&logo=githubactions&logoColor=white) |
 
 ## Featured work
 
