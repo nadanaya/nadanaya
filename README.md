@@ -1,110 +1,68 @@
 # 김나영 | Backend Developer
 
 데이터와 AI 기능을 실제 서비스로 연결하는 신입 백엔드 개발자입니다.  
-은행, IT, 핀테크 분야에서 거래 데이터, 서비스 운영 데이터, AI Agent 흐름을 안정적인 API와 데이터 구조로 구현하는 역량을 키우고 있습니다.
+Spring Boot·FastAPI 기반 API, PostgreSQL·SQLite 데이터 모델, 자동화된 테스트를 중심으로 운영 가능한 서비스를 만듭니다.
 
 ## Focus
 
-- Backend API / Spring Boot / JPA
+- Backend API / Spring Boot / JPA / FastAPI
 - PostgreSQL, SQLite, Supabase, Firebase
 - AI Agent / RAG / Tool Use
 - Data Analysis with Python / SQL
-- ML Classification / Model Evaluation
-- Public API Data Pipeline
-
-## Tech Stack
-
-| Area | Tools |
-| --- | --- |
-| Analysis | Python, SQL, Pandas, NumPy, Excel, Tableau |
-| ML / Data App | scikit-learn, Streamlit, SQLite, pytest |
-| Backend & API | Java 17, Spring Boot, Spring Data JPA, Python, FastAPI, REST API, Node.js |
-| Cloud DB / BaaS | PostgreSQL, Supabase, Firebase, H2 |
-| App / Client | Flutter, Dart, Java, Android Studio, HTML/CSS |
-| Collaboration | Git, GitHub, Figma, Notion |
+- 테스트, 문서화, 배포 자동화
 
 ## Featured Projects
 
-### 1. Pigge Server
+### PetBalance — 반려동물 영양 분석·보호소 운영 플랫폼
 
-개인 가계부 앱을 위한 Spring Boot 백엔드 API입니다. 수입/지출 거래 저장, 사용자별 조회, 월별 집계, 잔액 조회, AI 소비 요약 흐름을 구현했습니다.
+개인 반려동물의 급여 조합 분석부터 보호소의 로스터·재고·예산 관리까지 연결한 서비스입니다.
 
-- Java 17, Spring Boot, Spring Data JPA 기반 거래 API 구현
-- 사용자별 전체 거래 조회, 월별 거래 조회, 총 잔액 조회 API 구성
-- 월별 수입/지출 집계 데이터를 AI 소비 요약으로 연결
-- `TransactionServiceTest` 기반 거래 저장·잔액 계산·월별 필터링·AI Client mock 흐름 검증
-- Repository: https://github.com/nadanaya/pigge_server
+- FastAPI 기반 인증·제품·식단·영양 분석 API와 Spring Boot 호환 구현
+- React/Vite 웹, Electron 데스크톱, Capacitor Android 클라이언트 구성
+- 보호소 운영용 Next.js Route Handlers와 Neon PostgreSQL 저장 구조
+- PBKDF2 인증, 사용자별 데이터 분리, revision 기반 동시 수정 충돌 감지
+- 백엔드 단위·API 테스트 63개와 프런트엔드 프로덕션 빌드로 핵심 흐름 검증
+- 영양 기준과 제품 데이터는 기능 검증용 데모이며 실제 수의학적 판단을 대체하지 않도록 안전 범위 명시
 
-### 2. AI Agent System
+Repositories: [Backend](https://github.com/petbalance/backend) · [Frontend](https://github.com/petbalance/Frontend) · [Organization](https://github.com/petbalance)
 
-프로젝트 관리 데이터를 분석해 회의 요약, Action Item, 일정 리마인드, 리스크 분석, 최종 Markdown 보고서를 자동 생성하는 AI Agent 프로젝트입니다.
+### Pigge Server
 
-- Python 기반 Agent 분석 로직 구현
-- LangGraph 기반 분석 흐름 구성
-- Supabase(PostgreSQL) 저장 구조와 SQL 스키마 구성
-- Discord Bot 명령과 Agent 실행 흐름 연동
+개인 가계부 앱용 Spring Boot 백엔드입니다. 거래 저장, 사용자별·월별 조회, 잔액 계산과 AI 소비 요약 흐름을 구현했습니다.
+
+- Java 17, Spring Boot, Spring Data JPA
+- 거래 저장·잔액 계산·월별 필터링을 서비스 테스트로 검증
+
+Repository: [nadanaya/pigge_server](https://github.com/nadanaya/pigge_server)
+
+### AI Agent System
+
+프로젝트 관리 데이터를 분석해 회의 요약, Action Item, 리스크와 Markdown 보고서를 생성하는 자동화 프로젝트입니다.
+
+- Python, LangGraph, Supabase PostgreSQL, Discord Bot
 - FakeRepository/FakeLLM 기반 테스트 36개로 주요 워크플로우 검증
-- Repository: https://github.com/nadanaya/ai-agent
 
-### 3. JipFit AI
+Repository: [nadanaya/ai-agent](https://github.com/nadanaya/ai-agent)
 
-청년의 소득, 자산, 보증금, 월세, 관리비, 부채 조건을 바탕으로 주거비 부담 위험을 분류하고 주거 정책을 추천하는 데이터 분석/ML 프로젝트입니다.
+### JipFit AI
 
-- 6,000건의 합성 주거 시나리오 생성 및 SQLite 데이터 구성
-- 총 주거비, 소득 대비 주거비 비율, 부채 버퍼 등 핵심 지표 설계
-- Logistic Regression, Random Forest 등 모델 비교
-- 선정 모델 성능: Accuracy 0.9375, Macro F1 0.9185
-- Streamlit 기반 사용자 입력/결과 확인 화면 구성
-- Repository: https://github.com/nadanaya/jipfit-ai
+청년의 소득·자산·주거비·부채 조건으로 주거비 부담 위험을 분류하고 정책을 추천하는 데이터 분석·ML 프로젝트입니다.
+
+- 6,000건의 합성 시나리오와 SQLite 데이터 구성
+- Accuracy 0.9375, Macro F1 0.9185
+
+Repository: [nadanaya/jipfit-ai](https://github.com/nadanaya/jipfit-ai)
 
 ## Team Experience
 
-### FESTAI
-
-AI·ESG 기반 지역축제 운영 플랫폼 백엔드로, 방문객 QR 모바일 웹·운영자 콘솔·참여업체 콘솔이 함께 쓰는 FastAPI 서비스입니다.
-
-- (직접 기여·검증) 공개 API 게시 상태 필터링 및 승인된 festival context 기반 AI 안내 흐름 구현·검증
-- Alan AI 연동 시 질문별 컨텍스트 선택과 URL 길이 상한 처리로 안정성 확보
-- 익명 방문 세션은 원문 토큰 대신 해시로 저장, 응답에 Alan AI 사용 여부 표시
-- Repository: https://github.com/FEST-ON/Backend
-
-### DentalLink
-
-치과 진료 전후 경험을 환자 앱과 관리자 웹으로 연결하는 통합 관리 서비스입니다.
-
-- Supabase(PostgreSQL) 기반 환자, 예약, 대기 데이터 모델링
-- QR/PIN 인증 흐름 설계
-- Screen - Provider - Service - Model 계층 분리
-- Supabase Realtime 기반 대기 상태 동기화
-- Flutter, Provider, MVVM 구조 적용
-- Repository: https://github.com/2026-capstone-design
-
-## Supporting Projects
-
-### Weather Forecast Error
-
-기상청 단기예보와 서울 ASOS 관측 데이터를 결합해 시간대별 강수 예보 오차 여부를 정의한 공공 API 데이터 파이프라인 프로젝트입니다.
-
-- 기상청 단기예보 API와 ASOS 시간 관측 자료 수집
-- 예보 강수 여부와 실제 강수 여부를 같은 시간 기준으로 정렬
-- `forecast_rain != actual_rain` 기준으로 `forecast_error` 분류 타깃 생성
-- Repository: https://github.com/nadanaya/weather-forecast-error
+- **FESTAI** — FastAPI·PostgreSQL 축제 운영 백엔드, 공개 API 필터링과 AI 안내 fallback 구현
+- **DentalLink** — Flutter·Supabase 기반 환자·예약·대기 모델과 QR/PIN 인증, Realtime 동기화
 
 ## Portfolio
 
-- Portfolio Page: https://nadanaya.github.io/portfolio/
-- Portfolio Repository: https://github.com/nadanaya/portfolio
+- [Portfolio Page](https://nadanaya.github.io/portfolio/)
+- [Portfolio Repository](https://github.com/nadanaya/portfolio)
 
 ## Learning & Activities
 
-- ADsP 취득
-- 정보처리기사 필기 합격
-- BDA AI Agent 수업: OpenAI, HuggingFace, NLP, RAG 학습
-- HP 멘토링 프로그램 참여
-- ICPC 프로그래밍 대회 참가
-- 특허전략 유니버시아드 참가
-
-## What I Care About
-
-데이터 분석은 차트를 만드는 일에서 끝나지 않고, 사용자의 문제를 지표로 정의하고 서비스 개선 액션으로 연결하는 일이라고 생각합니다.  
-앞으로 금융/IT/핀테크 도메인에서 데이터를 신뢰할 수 있게 다루고, 분석 결과가 실제 제품과 시스템 개선으로 이어지도록 성장하고 싶습니다.
+ADsP · 정보처리기사 필기 합격 · BDA AI Agent 수업 · HP 멘토링 · ICPC 참가 · 특허전략 유니버시아드 참가
