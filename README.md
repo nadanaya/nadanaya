@@ -95,7 +95,7 @@ Java 17 · Spring Boot · Spring Data JPA
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=nadanaya&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nadanaya&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
 <br />
-[![GitHub Streak](https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent" alt="GitHub streak" />
 </div>
 
 <div align="center"><sub>제품·영양 기준 데이터는 기능 검증용 데모이며 실제 수의학적 판단을 대체하지 않습니다.</sub></div>
