@@ -8,7 +8,7 @@
 
 <br />
 <a href="https://nadanaya.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://github.com/nadanaya"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
+<a href="https://github.com/petbalance"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
 <a href="https://github.com/nadanaya/ai-agent"><img src="https://img.shields.io/badge/AI_AGENT-6D4AFF?style=for-the-badge&logo=python&logoColor=white" alt="AI Agent" /></a>
 
 </div>
@@ -37,14 +37,14 @@
 
 ## Selected work
 
-### [PetBalance](https://github.com/nadanaya/backend)
+### [PetBalance](https://github.com/nadanaya/petbalance)
 **반려동물 영양 분석 · 보호소 운영 플랫폼**
 
 급여 조합 분석부터 실제 급여 기록, 추천·알림, 보호소 로스터·재고·예산 관리까지 연결했습니다.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-[Backend](https://github.com/nadanaya/backend) · [Frontend](https://github.com/nadanaya/Frontend) · [Organization](https://github.com/nadanaya)
+
 
 ---
 
