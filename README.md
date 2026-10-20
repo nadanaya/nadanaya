@@ -8,7 +8,7 @@
 
 <br />
 <a href="https://nadanaya.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://github.com/petbalance"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
+<a href="https://github.com/nadanaya/petbalance"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
 <a href="https://github.com/nadanaya/ai-agent"><img src="https://img.shields.io/badge/AI_AGENT-6D4AFF?style=for-the-badge&logo=python&logoColor=white" alt="AI Agent" /></a>
 
 </div>
