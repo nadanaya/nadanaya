@@ -15,7 +15,8 @@ jobs:
       - name: Generate profile and language statistics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: nadanaya
           filename: assets/github-metrics.svg
           template: classic
