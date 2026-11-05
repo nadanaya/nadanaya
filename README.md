@@ -22,14 +22,6 @@
 
 <br />
 
-## What I build
-
-<div align="center">
-  <img width="100%" src="assets/profile-focus.svg" alt="Backend Systems, Data and AI, Open Source 핵심 역량" />
-</div>
-
-<br />
-
 ## Stack
 
 #### Backend
@@ -44,14 +36,6 @@
 <br />
 
 ## Selected work
-
-| Project | What I built | Evidence |
-|:--|:--|:--|
-| **[PetBalance](https://github.com/nadanaya/petbalance)** | 반려동물 영양 분석부터 보호소 운영까지 연결한 플랫폼 | FastAPI · Spring Boot · React · PostgreSQL |
-| **[AI Agent System](https://github.com/nadanaya/ai-agent)** | 회의 요약부터 Action Item·리스크·보고서까지 자동화 | Python · LangGraph · pytest 36개 |
-| **[Pigge Server](https://github.com/nadanaya/pigge_server)** | 거래 저장·월별 조회·잔액 계산·AI 소비 요약 API | Java · Spring Boot · JPA |
-
-<br />
 
 ### [PetBalance](https://github.com/nadanaya/petbalance)
 **반려동물 영양 분석 · 보호소 운영 플랫폼**
@@ -130,3 +114,12 @@ QR/PIN 인증과 Realtime 동기화를 포함한 환자·예약·대기 모델�
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 <br />
+
+## GitHub activity
+
+<div align="center">
+<img height="165" src="https://raw.githubusercontent.com/nadanaya/nadanaya/main/assets/github-metrics.svg" alt="GitHub stats" />
+
+<br />
+<img src="https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent" alt="GitHub streak" />
+</div>
