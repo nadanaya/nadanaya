@@ -2,6 +2,11 @@ name: Update profile metrics
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-metrics.yml"
   schedule:
     - cron: "17 0 * * *"
 
