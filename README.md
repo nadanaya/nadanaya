@@ -10,6 +10,7 @@
 <a href="https://nadanaya.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://github.com/nadanaya/petbalance"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
 <a href="https://github.com/nadanaya/ai-agent"><img src="https://img.shields.io/badge/AI_AGENT-6D4AFF?style=for-the-badge&logo=python&logoColor=white" alt="AI Agent" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/OPEN_SOURCE-MIT_LICENSE-3157D5?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" /></a>
 
 </div>
 
@@ -19,6 +20,14 @@
 
 > Spring Boot와 FastAPI로 API와 데이터 모델을 설계합니다.  
 > 테스트·문서화·배포까지 이어지는 구조와 AI Agent·RAG를 실제 서비스 흐름에 적용하는 일에 관심이 있습니다.
+
+<br />
+
+## What I build
+
+<div align="center">
+  <img width="100%" src="assets/profile-focus.svg" alt="Backend Systems, Data and AI, Open Source 핵심 역량" />
+</div>
 
 <br />
 
@@ -36,6 +45,14 @@
 <br />
 
 ## Selected work
+
+| Project | What I built | Evidence |
+|:--|:--|:--|
+| **[PetBalance](https://github.com/nadanaya/petbalance)** | 반려동물 영양 분석부터 보호소 운영까지 연결한 플랫폼 | FastAPI · Spring Boot · React · PostgreSQL |
+| **[AI Agent System](https://github.com/nadanaya/ai-agent)** | 회의 요약부터 Action Item·리스크·보고서까지 자동화 | Python · LangGraph · pytest 36개 |
+| **[Pigge Server](https://github.com/nadanaya/pigge_server)** | 거래 저장·월별 조회·잔액 계산·AI 소비 요약 API | Java · Spring Boot · JPA |
+
+<br />
 
 ### [PetBalance](https://github.com/nadanaya/petbalance)
 **반려동물 영양 분석 · 보호소 운영 플랫폼**
@@ -115,11 +132,8 @@ QR/PIN 인증과 Realtime 동기화를 포함한 환자·예약·대기 모델�
 
 <br />
 
-## GitHub activity
+## Open source
 
-<div align="center">
-<img height="165" src="https://raw.githubusercontent.com/nadanaya/nadanaya/main/assets/github-metrics.svg" alt="GitHub stats" />
+이 프로필 저장소의 콘텐츠와 재사용 가능한 자료는 [MIT License](LICENSE)로 공개합니다.
 
-<br />
-<img src="https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent" alt="GitHub streak" />
-</div>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-0F766E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" /></a>

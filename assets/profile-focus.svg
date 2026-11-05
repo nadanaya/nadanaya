@@ -1,0 +1,44 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nayoung Kim development focus</title>
+  <desc id="desc">Backend Systems, Data and AI, and Open Source focus areas</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="900" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#F4F1FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="60" y1="35" x2="840" y2="215" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3157D5"/>
+      <stop offset="1" stop-color="#7657E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#172554" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="248" rx="24" fill="url(#background)" stroke="#DCE3F5" stroke-width="2"/>
+  <rect x="34" y="30" width="832" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="34" y="57" width="256" height="160" rx="18" fill="white" stroke="#DDE4F3"/>
+    <rect x="322" y="57" width="256" height="160" rx="18" fill="white" stroke="#DDE4F3"/>
+    <rect x="610" y="57" width="256" height="160" rx="18" fill="white" stroke="#DDE4F3"/>
+  </g>
+
+  <circle cx="66" cy="91" r="12" fill="#3157D5"/>
+  <text x="88" y="98" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Backend Systems</text>
+  <text x="58" y="136" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">Java · Spring Boot</text>
+  <text x="58" y="166" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">Python · FastAPI</text>
+  <text x="58" y="196" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">PostgreSQL · REST API</text>
+
+  <circle cx="354" cy="91" r="12" fill="#7657E8"/>
+  <text x="376" y="98" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Data &amp; AI</text>
+  <text x="346" y="136" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">Python · SQL</text>
+  <text x="346" y="166" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">RAG · LangGraph</text>
+  <text x="346" y="196" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">Analysis · Model validation</text>
+
+  <circle cx="642" cy="91" r="12" fill="#0F766E"/>
+  <text x="664" y="98" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Open Source</text>
+  <text x="634" y="136" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">MIT Licensed</text>
+  <text x="634" y="166" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">GitHub Actions</text>
+  <text x="634" y="196" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="16">Tests · Documentation</text>
+</svg>
