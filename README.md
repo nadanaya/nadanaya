@@ -118,7 +118,7 @@ QR/PIN 인증과 Realtime 동기화를 포함한 환자·예약·대기 모델�
 ## GitHub activity
 
 <div align="center">
-<img height="165" src="https://raw.githubusercontent.com/nadanaya/nadanaya/main/assets/github-metrics.svg" alt="GitHub stats" />
+<img width="100%" src="https://raw.githubusercontent.com/nadanaya/nadanaya/main/assets/github-metrics.svg" alt="GitHub 저장소와 주요 언어 비율" />
 
 <br />
 <img src="https://streak-stats.demolab.com?user=nadanaya&hide_border=true&theme=transparent" alt="GitHub streak" />
