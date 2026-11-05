@@ -10,7 +10,6 @@
 <a href="https://nadanaya.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://github.com/nadanaya/petbalance"><img src="https://img.shields.io/badge/PETBALANCE-277C5C?style=for-the-badge&logo=github&logoColor=white" alt="PetBalance" /></a>
 <a href="https://github.com/nadanaya/ai-agent"><img src="https://img.shields.io/badge/AI_AGENT-6D4AFF?style=for-the-badge&logo=python&logoColor=white" alt="AI Agent" /></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/OPEN_SOURCE-MIT_LICENSE-3157D5?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" /></a>
 
 </div>
 
@@ -131,9 +130,3 @@ QR/PIN 인증과 Realtime 동기화를 포함한 환자·예약·대기 모델�
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 <br />
-
-## Open source
-
-이 프로필 저장소의 콘텐츠와 재사용 가능한 자료는 [MIT License](LICENSE)로 공개합니다.
-
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-0F766E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" /></a>
